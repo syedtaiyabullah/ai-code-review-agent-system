@@ -1,0 +1,56 @@
+# Core Dependencies
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# LangChain & AI
+langchain==0.3.15
+langchain-community==0.3.15
+langchain-core==0.3.25
+langchain-openai==0.2.14
+langgraph==0.2.60
+openai==1.59.5
+
+# FastAPI & Web
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+websockets==12.0
+
+# Vector Stores & Embeddings
+faiss-cpu==1.15.0
+chromadb==0.5.20
+sentence-transformers==3.3.1
+
+# Code Analysis
+tree-sitter==0.21.0
+tree-sitter-python==0.21.0
+tree-sitter-javascript==0.21.0
+pygments==2.17.2
+radon==6.0.1  # Complexity metrics
+black==24.1.1  # Code formatter
+flake8==7.0.0  # Linter
+bandit==1.7.6  # Security linter
+
+# MLOps
+mlflow==2.9.2
+dvc==3.40.0
+
+# Data & Utils
+pandas==2.1.4
+numpy==1.26.3
+tiktoken==0.5.2
+
+# UI
+streamlit==1.30.0
+plotly==5.18.0
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+httpx==0.26.0
+
+# Development
+ipython==8.20.0
+jupyter==1.0.0

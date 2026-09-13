@@ -1,0 +1,98 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment
+.env
+.env.local
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# DVC
+.dvc/
+.dvc/cache/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+logs/
+*.log
+
+# Data
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# Models
+models/checkpoints/
+*.pth
+*.pkl
+*.joblib
+
+# Vector stores
+vectorstores/
+faiss_index/
+
+# Docker
+.dockerignore
+
+# Temporary
+tmp/
+temp/
+cache/
+
+# Cursor/Agent Artifacts
+.agents/
+.claude/
+
+# Project Notes (optional - internal documentation)
+project_structure.txt
+GITHUB_PREP.md
+PROJECT_STATUS.md
+temp_structure.json
+INSTALL_TROUBLESHOOTING.md
+INSTALL_NOW.md
+
+# OS
+Thumbs.db
